@@ -8,5 +8,5 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '/index.html'));
 });
 
-const port = process.env.port || 5500;
+const port = process.env.port || 8080;
 app.listen(port);
